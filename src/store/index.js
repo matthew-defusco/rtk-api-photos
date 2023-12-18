@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";
 
 import { usersReducer } from "./slices/usersSlice";
+<<<<<<< HEAD
 import { albumsApi } from "./apis/albumsApi";
 import { photosApi } from "./apis/photosApi";
 
@@ -36,3 +37,12 @@ export {
   useAddPhotoMutation,
   useRemovePhotoMutation,
 } from "./apis/photosApi";
+=======
+import { fetchUsers } from "./thunks/fetchUsers";
+
+const store = configureStore({
+  reducer: { users: usersReducer },
+});
+
+export { store, fetchUsers };
+>>>>>>> 1308ec8f8a68026d0561504aacfd37009425d9bd
