@@ -7,8 +7,89 @@
     {
       "id": 2,
       "name": "Peter"
+    },
+    {
+      "name": "Marlene Zieme",
+      "id": 3
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": 2,
+      "title": "Hiking Trip",
+      "userId": 2
+    },
+    {
+      "userId": 1,
+      "title": "Practical Fresh Shoes",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Electronic Bronze Pizza",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "title": "Luxurious Soft Car",
+      "id": 6
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=282478726086656",
+      "id": 2
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3923859231211520",
+      "id": 4
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3184759861673984",
+      "id": 5
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2078762858446848",
+      "id": 6
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8842972963536896",
+      "id": 8
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3862163984744448",
+      "id": 9
+    },
+    {
+      "albumId": 5,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1496786646597632",
+      "id": 10
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4267968135430144",
+      "id": 11
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2466058357178368",
+      "id": 12
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8380324971020288",
+      "id": 13
+    },
+    {
+      "albumId": 6,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3993956853481472",
+      "id": 14
+    }
+  ]
 }

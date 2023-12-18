@@ -1,3 +1,5 @@
+// Uses legacy way of fetching data, handling loading state, errors, and updating the store.
+// This is with createAsyncThunk
 import { createSlice } from "@reduxjs/toolkit";
 
 import { fetchUsers } from "../thunks/fetchUsers";
